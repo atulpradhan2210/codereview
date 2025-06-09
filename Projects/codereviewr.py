@@ -8,7 +8,9 @@ import io
 import ast
 
 # Load environment variables
-load_dotenv()
+import os
+os.environ["GOOGLE_API_KEY"] = "AIzaSyCnDA9Z6feBHZKdjIJLqiHTAIiZlNE5jnY"
+
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
